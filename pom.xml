@@ -5,7 +5,7 @@
 
     <groupId>org.springframework</groupId>
     <artifactId>sample-spring-boot</artifactId>
-    <!-- <version>0.1.0</version> -->
+    <!-- <version>0.1.0</version> -->   
     <version>0.1.0-${git.commitid.id}-${build.number}</version>
 
     <parent>
