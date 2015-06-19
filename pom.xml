@@ -6,7 +6,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>sample-spring-boot</artifactId>
     <!-- <version>0.1.0</version> -->   
-    <version>0.1.0-${git.commitid.id}-${build.number}</version>
+    <version>0.1.0-${git.commitid}-${build.number}</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +21,7 @@
 		<build.revision>${build.unknown}</build.revision>
 		<build.timestamp>${maven.build.timestamp}</build.timestamp>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
-		<git.commitid.id>X</git.commitid.id>
+		<git.commitid>X</git.commitid>
 	</properties>
 
 
