@@ -6,3 +6,4 @@ target/*
 *.iml
 /target
 /target
+src/main/resources/version/*
